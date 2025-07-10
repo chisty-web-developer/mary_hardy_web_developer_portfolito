@@ -19,6 +19,9 @@ body{
     border-radius: 5px;
     border: none;
 }
+#iconM{
+    margin-left: 20px;
+}
 .sectionTitle{
     font-size: 35px;
     font-weight: bold;
