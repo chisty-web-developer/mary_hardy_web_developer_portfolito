@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* shared style */
+body{
+    font-family: "Poppins", sans-serif;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+.dark_2{
+    color: #474747;
+}
+.btnPrimary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: none;
+}
+.sectionTitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.sectionDescription{
+    font-size:18px;
+    color: #757575;
+}
+.seconderBg{
+    background-color: #FFF8F3;
+}
+/* header image */
+.headerImage{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* header > nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+
+    
+}
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* header > nav section end */
+
+/* header > banner start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+.bannerGreetings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannerTitle{
+    font-weight: 800;
+    font-size: 45px;
+}
+.bannerContent{
+    width: 580px;
+}
+
+.bannerImage{
+    width: 580px;
+    height: auto;
+}
+
+/* header banner end */
+/* main section start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* main section end */
+
+/* about section start */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.aboutItems{
+    display: flex;
+    justify-content: space-around;
+}
+.itemDescription{
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+/* about section end */
+
+/* what I do section start */
+
+.skills{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgb(0, 0, 0, 0.06);
+}
+
+/* resume section start */
+.summaryResume{
+    text-align: center;
+    margin: 130px 0px;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+.resumeContainer{
+    display: flex;
+    gap: 25px;
+}
+.exprienceTitle{
+    margin-top: 30px;
+}
+.expriencesDescription{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.expriencesSubTitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.downloadCv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* resume section end */
+
+/* footer section start */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+.footerCollum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea[type="message"]{
+    height: 40px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    border: none;
+}
