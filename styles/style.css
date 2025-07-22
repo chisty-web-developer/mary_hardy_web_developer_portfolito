@@ -18,9 +18,10 @@ body{
     padding: 12px 35px;
     border-radius: 5px;
     border: none;
+    margin-left: 30px;
 }
 #iconM{
-    margin-left: 20px;
+    margin-left: -10px;
 }
 .sectionTitle{
     font-size: 35px;
@@ -181,14 +182,91 @@ footer{
 .footerCollum{
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea[type="message"]{
+footer input[type="text"] {
     height: 40px;
     font-size: 1.1em;
     border-radius: 5px;
     background-color: white;
     display: block;
     width: 100%;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    margin: 0px 0px;
     margin-bottom: 25px;
     border: none;
 }
+footer input[type="email"]{
+    height: 40px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    /* padding: 10px 20px; */
+    margin: 0px 0px;
+    margin-bottom: 25px;
+    border: none;
+}
+footer textarea[type="message"]{
+    height: 40px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    /* padding: 10px 20px; */
+    margin: 0px 0px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+
+
+
+@media screen and (max-width:576px){
+    body{
+        max-width: 576px;
+        margin: 0px auto;
+    }
+    .headerImage{
+        background-image: none;
+    }
+    nav{
+        margin: -12px 25px;
+    }
+    
+    .banner{
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+    .skills-container, .resumeContainer, .seconderBg, .aboutItems{
+        flex-direction: column;
+    }
+    .bannerImage{
+        width: 450px;
+        height: auto;
+        margin-left: 25px;
+    }
+    .bannerContent {
+        width: 540px;
+    }
+    .summaryResume{
+        margin: 130px 20px;
+
+    }
+    .resumeContainer{
+        margin: 0px 20px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footerCollum{
+        width: 100%;
+    }
+    .footer input[type="text"]{
+        padding: 0px;
+    }
+    footer input[type="email"], footer textarea[type="message"]{
+        width: calc(100%- 40px);
+        padding: 0px;
+    }
+} 
